@@ -34,16 +34,40 @@ int main () {
 //}
 //row +=1 is same as row=row+1
 //print solid rctangle for 4 row
-for ( int row = 0; row <6; row+=1)
+//for ( int row = 0; row <6; row+=1)
 //inner loop
+//{
+  //for (int col=0;col<6; col+=1) 
+  //{
+    //cout << "*";
+//}
+//cout << endl;
+//}
+
+//}
+// hollow rectangle 
+// *****
+// *   *
+// *****
+
+for (int i=0;i<3;i=i+1)
+
 {
-  for (int col=0;col<6; col+=1) 
+  if (i==0 || i==2)
   {
+    for (int j=0;j<5;j++)
+    {
+      cout << "*";
+    }
+  }
+  else {
+    cout << "*" ;
+   for(int i=0;i<3;i++)
+    {
+      cout <<" ";
+    }
     cout << "*";
+  }
+  cout << endl ;
 }
-cout << endl;
-
-  
-}
-
 }
