@@ -50,10 +50,32 @@ int main () {
 // *   *
 // *****
 
-for (int i=0;i<3;i=i+1)
+//for (int i=0;i<3;i=i+1)
+
+//{
+  //if (i==0 || i==2)
+  //{
+    //for (int j=0;j<5;j++)
+    //{
+     // cout << "*";
+    //}
+  //}
+  //else {
+    //cout << "*" ;
+   //for(int i=0;i<3;i++)
+    //{
+      //cout <<" ";
+    //}
+    //cout << "*";
+  //}
+  //cout << endl ;
+//}
+
+//Hollow rectangle for 5*6
+for (int i=0;i<6;i=i+1)
 
 {
-  if (i==0 || i==2)
+  if (i==0 || i==5)
   {
     for (int j=0;j<5;j++)
     {
